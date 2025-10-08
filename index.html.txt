@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle Mira Lingerie - Premium İç Giyim Koleksiyonu</title>
+    <meta name="description" content="Miracle Mira Lingerie - Premium iç giyim koleksiyonu. Zarafetin gücü, lüksün dokunuşu. Velvet Touch Koleksiyonu ile kendinizi yeniden keşfedin.">
+    <meta name="keywords" content="lingerie, iç giyim, sütyen, bodysuit, premium lingerie, kadın iç giyim, lüks iç giyim">
+    <meta name="author" content="Miracle Mira Lingerie">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Miracle Mira Lingerie - Premium İç Giyim">
+    <meta property="og:description" content="Zarafetin gücü, lüksün dokunuşu. Premium iç giyim koleksiyonumuzla kendinizi keşfedin.">
+    <meta property="og:url" content="https://miraclemiralingerie.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://miraclemiralingerie.com/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Miracle Mira Lingerie">
+    <meta name="twitter:description" content="Premium iç giyim koleksiyonu">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Search Console Verification -->
+    <meta name="google-site-verification" content="your-verification-code">
+    
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .inter {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, 
+                rgba(139, 69, 19, 0.1) 0%,
+                rgba(218, 165, 32, 0.15) 25%,
+                rgba(255, 215, 0, 0.1) 50%,
+                rgba(184, 134, 11, 0.15) 75%,
+                rgba(139, 69, 19, 0.1) 100%);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg,
+                rgba(139, 69, 19, 0.95) 0%,
+                rgba(160, 82, 45, 0.9) 25%,
+                rgba(218, 165, 32, 0.85) 50%,
+                rgba(184, 134, 11, 0.9) 75%,
+                rgba(139, 69, 19, 0.95) 100%);
+        }
+        
+        .woman-silhouette {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 600'%3E%3Cpath d='M200 50c-30 0-50 20-50 50s20 50 50 50 50-20 50-50-20-50-50-50zm-40 120c-20 0-40 15-40 35v80c0 20 20 35 40 35h80c20 0 40-15 40-35v-80c0-20-20-35-40-35h-80zm-20 150v200c0 15 10 25 25 25s25-10 25-25v-200h20v200c0 15 10 25 25 25s25-10 25-25v-200c10 0 20-10 20-20s-10-20-20-20h-100c-10 0-20 10-20 20s10 20 20 20z' fill='%23ffffff' opacity='0.1'/%3E%3C/svg%3E");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .glow-effect {
+            box-shadow: 0 0 30px rgba(218, 165, 32, 0.3);
+        }
+        
+        .premium-card {
+            background: linear-gradient(145deg, 
+                rgba(255, 255, 255, 0.1) 0%,
+                rgba(218, 165, 32, 0.05) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(218, 165, 32, 0.2);
+        }
+        
+        .cart-badge {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 3rem;
+                line-height: 1.1;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold playfair text-amber-800">✨ Miracle Mira</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-amber-800 hover:text-amber-600 inter font-medium">Ana Sayfa</a>
+                    <a href="#collection" class="text-amber-800 hover:text-amber-600 inter font-medium">Koleksiyon</a>
+                    <a href="#about" class="text-amber-800 hover:text-amber-600 inter font-medium">Hakkımızda</a>
+                    <a href="#contact" class="text-amber-800 hover:text-amber-600 inter font-medium">İletişim</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button id="cartBtn" class="relative p-2 text-amber-800 hover:text-amber-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m0 0h9M17 21a2 2 0 100-4 2 2 0 000 4zM9 21a2 2 0 100-4 2 2 0 000 4z"></path>
+                        </svg>
+                        <span id="cartCount" class="absolute -top-1 -right-1 bg-amber-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center cart-badge">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-full hero-gradient woman-silhouette flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+            <!-- Premium Badge -->
+            <div class="inline-flex items-center px-6 py-2 mb-8 bg-white/10 backdrop-blur-md rounded-full border border-white/20 glow-effect">
+                <span class="text-amber-200 inter font-medium">✨ Velvet Touch Koleksiyonu – Sınırlı Üretim ✨</span>
+            </div>
+            
+            <!-- Main Title -->
+            <h1 class="hero-title text-6xl md:text-8xl font-light playfair mb-6 leading-tight">
+                Zarafetin Gücü
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="hero-subtitle text-xl md:text-2xl inter font-light mb-12 text-white/90 max-w-3xl mx-auto leading-relaxed">
+                Lüksün dokunuşu, feminen ruhla birleşiyor. Miracle Mira'nın özel koleksiyonunda kendinizi yeniden keşfedin.
+            </p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button onclick="scrollToCollection()" class="px-8 py-4 bg-amber-600 hover:bg-amber-700 text-white inter font-semibold rounded-full transition-all duration-300 glow-effect">
+                    Koleksiyonu Keşfet
+                </button>
+                <span class="text-white/60 inter">•</span>
+                <a href="https://wa.me/905467746472?text=Merhaba! Miracle Mira Lingerie koleksiyonu hakkında bilgi almak istiyorum." 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   onclick="trackWhatsAppClick('hero_cta')"
+                   class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white inter font-semibold rounded-full border border-white/30 backdrop-blur-md transition-all duration-300">
+                    WhatsApp'tan Sipariş Ver
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-6 h-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Premium Collection Section -->
+    <section id="collection" class="py-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-light playfair text-amber-900 mb-6">Premium Koleksiyon</h2>
+                <p class="text-xl inter text-amber-700 max-w-2xl mx-auto">
+                    Her parça özenle seçilmiş, zarafet ve konforun mükemmel uyumu
+                </p>
+            </div>
+            
+            <div id="productGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-light playfair text-amber-900 mb-6">Miracle Mira Farkı</h2>
+                    <p class="text-lg inter text-gray-700 mb-6 leading-relaxed">
+                        Her kadının kendini özel hissetmeyi hak ettiğine inanıyoruz. Premium kumaşlar, 
+                        zarif tasarımlar ve mükemmel kalıplarla üretilen koleksiyonumuz, 
+                        feminen gücünüzü ortaya çıkarır.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <span class="text-amber-600 mr-3">✨</span>
+                            <span class="inter text-gray-700">Premium kalite kumaşlar</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-amber-600 mr-3">✨</span>
+                            <span class="inter text-gray-700">Özel tasarım koleksiyonlar</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-amber-600 mr-3">✨</span>
+                            <span class="inter text-gray-700">Mükemmel kalıp ve konfor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="premium-card p-8 rounded-2xl">
+                        <div class="text-center">
+                            <div class="text-6xl mb-4">👑</div>
+                            <h3 class="text-2xl playfair text-amber-900 mb-4">Velvet Touch</h3>
+                            <p class="inter text-gray-700">
+                                Sınırlı üretim özel koleksiyonumuz ile lüksün dokunuşunu hissedin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 gradient-bg">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-light playfair text-amber-900 mb-6">İletişim</h2>
+            <p class="text-lg inter text-amber-700 mb-8">
+                Sorularınız için WhatsApp üzerinden bize ulaşabilirsiniz
+            </p>
+            <a href="https://wa.me/905467746472?text=Merhaba! Miracle Mira Lingerie hakkında bilgi almak istiyorum." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               onclick="trackWhatsAppClick('contact_section')"
+               class="inline-flex items-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white inter font-semibold rounded-full transition-all duration-300 glow-effect">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                </svg>
+                WhatsApp ile İletişim
+            </a>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl max-w-md w-full max-h-96 overflow-hidden">
+                <div class="p-6 border-b border-gray-200">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl playfair font-semibold text-amber-900">Sepetim</h3>
+                        <button id="closeCart" class="text-gray-400 hover:text-gray-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div id="cartItems" class="p-6 max-h-64 overflow-y-auto">
+                    <!-- Cart items will be displayed here -->
+                </div>
+                <div class="p-6 border-t border-gray-200">
+                    <button id="whatsappOrder" class="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-full inter font-semibold transition-colors">
+                        WhatsApp ile Sipariş Ver
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl max-w-lg w-full">
+                <div class="p-6 border-b border-gray-200">
+                    <div class="flex justify-between items-center">
+                        <h3 id="modalTitle" class="text-xl playfair font-semibold text-amber-900"></h3>
+                        <button id="closeModal" class="text-gray-400 hover:text-gray-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div id="modalContent">
+                        <!-- Product details will be displayed here -->
+                    </div>
+                    <div class="flex gap-3 mt-6">
+                        <button id="addToCartModal" class="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-3 rounded-full inter font-semibold transition-colors">
+                            Sepete Ekle
+                        </button>
+                        <button id="whatsappSingle" class="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 rounded-full inter font-semibold transition-colors">
+                            WhatsApp Sipariş
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Premium Product Data
+        const premiumProducts = [
+            {
+                id: 1,
+                name: "Velvet Dreams Sütyen",
+                code: "VD001",
+                price: "₺299",
+                category: "sutyen",
+                description: "Lüks kadife dokulu, özel tasarım sütyen. Mükemmel destek ve zarif görünüm.",
+                features: ["Premium kadife kumaş", "Ayarlanabilir askılar", "Özel kalıp"],
+                sizes: ["75B", "75C", "80B", "80C", "85B", "85C"],
+                colors: ["Bordo", "Siyah", "Altın"]
+            },
+            {
+                id: 2,
+                name: "Golden Touch Bodysuit",
+                code: "GT002",
+                price: "₺449",
+                category: "bodysuit",
+                description: "Altın detaylı, vücut hatlarını saran özel bodysuit. Feminen gücün simgesi.",
+                features: ["Altın detay işlemeler", "Esnek kumaş", "Rahat kesim"],
+                sizes: ["S", "M", "L", "XL"],
+                colors: ["Siyah/Altın", "Beyaz/Altın", "Bordo/Altın"]
+            },
+            {
+                id: 3,
+                name: "Miracle Lace Set",
+                code: "ML003",
+                price: "₺399",
+                category: "set",
+                description: "El işi dantel detaylı takım. Zarafet ve lüksün buluşma noktası.",
+                features: ["El işi dantel", "Takım halinde", "Premium paketleme"],
+                sizes: ["75B", "75C", "80B", "80C"],
+                colors: ["Beyaz", "Siyah", "Pudra"]
+            },
+            {
+                id: 4,
+                name: "Silk Sensation Kimono",
+                code: "SS004",
+                price: "₺349",
+                category: "kimono",
+                description: "İpek dokulu kimono, özel anlarınız için tasarlandı.",
+                features: ["İpek hissi kumaş", "Uzun kesim", "Kemer dahil"],
+                sizes: ["S/M", "L/XL"],
+                colors: ["Bordo", "Siyah", "Altın"]
+            },
+            {
+                id: 5,
+                name: "Royal Push-Up",
+                code: "RP005",
+                price: "₺329",
+                category: "sutyen",
+                description: "Kraliçe etkisi yaratan push-up sütyen. Doğal görünüm, maksimum destek.",
+                features: ["Push-up teknolojisi", "Doğal görünüm", "Gün boyu konfor"],
+                sizes: ["70B", "75B", "75C", "80B", "80C", "85B"],
+                colors: ["Nude", "Siyah", "Beyaz"]
+            },
+            {
+                id: 6,
+                name: "Midnight Elegance",
+                code: "ME006",
+                price: "₺379",
+                category: "set",
+                description: "Gece zarafeti için özel tasarım takım. Sınırlı üretim koleksiyonu.",
+                features: ["Özel gece tasarımı", "Sınırlı üretim", "Lüks kutu paketleme"],
+                sizes: ["S", "M", "L"],
+                colors: ["Siyah", "Lacivert", "Bordo"]
+            }
+        ];
+
+        // Cart Management
+        let cart = [];
+
+        // Load products on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProducts();
+            setupEventListeners();
+        });
+
+        function loadProducts() {
+            const productGrid = document.getElementById('productGrid');
+            productGrid.innerHTML = '';
+
+            premiumProducts.forEach(product => {
+                const productCard = createProductCard(product);
+                productGrid.appendChild(productCard);
+            });
+        }
+
+        function createProductCard(product) {
+            const card = document.createElement('div');
+            card.className = 'premium-card rounded-2xl overflow-hidden hover:scale-105 transition-all duration-300 cursor-pointer';
+            
+            card.innerHTML = `
+                <div class="aspect-w-3 aspect-h-4 bg-gradient-to-br from-amber-50 to-amber-100 p-8 flex items-center justify-center">
+                    <div class="text-6xl opacity-60">${getCategoryIcon(product.category)}</div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-lg playfair font-semibold text-amber-900">${product.name}</h3>
+                        <span class="text-xl inter font-bold text-amber-700">${product.price}</span>
+                    </div>
+                    <p class="text-sm inter text-gray-600 mb-4">${product.description}</p>
+                    <div class="flex gap-2 mb-4">
+                        <button onclick="openProductModal(${product.id})" class="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-2 px-4 rounded-full inter font-medium transition-colors text-sm">
+                            Detaylar
+                        </button>
+                        <button onclick="addToCart(${product.id})" class="bg-amber-100 hover:bg-amber-200 text-amber-800 py-2 px-4 rounded-full transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 6M7 13l-1.5 6m0 0h9"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex justify-between text-xs inter text-gray-500">
+                        <span>Kod: ${product.code}</span>
+                        <span>${product.sizes.length} beden</span>
+                    </div>
+                </div>
+            `;
+
+            return card;
+        }
+
+        function getCategoryIcon(category) {
+            const icons = {
+                'sutyen': '👙',
+                'bodysuit': '🩱',
+                'set': '💎',
+                'kimono': '🥻'
+            };
+            return icons[category] || '✨';
+        }
+
+        function openProductModal(productId) {
+            const product = premiumProducts.find(p => p.id === productId);
+            if (!product) return;
+
+            document.getElementById('modalTitle').textContent = product.name;
+            document.getElementById('modalContent').innerHTML = `
+                <div class="space-y-4">
+                    <div class="text-center">
+                        <div class="text-8xl mb-4">${getCategoryIcon(product.category)}</div>
+                        <div class="text-2xl playfair font-bold text-amber-700 mb-2">${product.price}</div>
+                        <div class="text-sm inter text-gray-500 mb-4">Ürün Kodu: ${product.code}</div>
+                    </div>
+                    
+                    <p class="inter text-gray-700">${product.description}</p>
+                    
+                    <div>
+                        <h4 class="inter font-semibold text-amber-900 mb-2">Özellikler:</h4>
+                        <ul class="space-y-1">
+                            ${product.features.map(feature => `<li class="inter text-sm text-gray-600">• ${feature}</li>`).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="inter font-semibold text-amber-900 mb-2">Bedenler:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                ${product.sizes.map(size => `<span class="px-2 py-1 bg-amber-100 text-amber-800 text-xs rounded">${size}</span>`).join('')}
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="inter font-semibold text-amber-900 mb-2">Renkler:</h4>
+                            <div class="flex flex-wrap gap-1">
+                                ${product.colors.map(color => `<span class="px-2 py-1 bg-amber-100 text-amber-800 text-xs rounded">${color}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Set up modal buttons
+            document.getElementById('addToCartModal').onclick = () => {
+                addToCart(productId);
+                closeProductModal();
+            };
+
+            document.getElementById('whatsappSingle').onclick = () => {
+                orderSingleProduct(productId);
+            };
+
+            document.getElementById('productModal').classList.remove('hidden');
+        }
+
+        function closeProductModal() {
+            document.getElementById('productModal').classList.add('hidden');
+        }
+
+        function addToCart(productId) {
+            const product = premiumProducts.find(p => p.id === productId);
+            if (!product) return;
+
+            const existingItem = cart.find(item => item.id === productId);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ ...product, quantity: 1 });
+            }
+
+            updateCartUI();
+            trackAddToCart(product.name, product.code, product.price);
+        }
+
+        function removeFromCart(productId) {
+            cart = cart.filter(item => item.id !== productId);
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const cartCount = document.getElementById('cartCount');
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalItems;
+
+            const cartItems = document.getElementById('cartItems');
+            if (cart.length === 0) {
+                cartItems.innerHTML = '<p class="text-gray-500 text-center inter">Sepetiniz boş</p>';
+            } else {
+                cartItems.innerHTML = cart.map(item => `
+                    <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                        <div class="flex-1">
+                            <h4 class="inter font-medium text-gray-900">${item.name}</h4>
+                            <p class="text-sm text-gray-500">Adet: ${item.quantity}</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="inter font-semibold text-amber-700">${item.price}</span>
+                            <button onclick="removeFromCart(${item.id})" class="text-red-500 hover:text-red-700">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function orderSingleProduct(productId) {
+            const product = premiumProducts.find(p => p.id === productId);
+            if (!product) return;
+
+            const message = `Merhaba! Miracle Mira Lingerie'den sipariş vermek istiyorum:
+
+🛍️ *${product.name}*
+💰 Fiyat: ${product.price}
+🏷️ Ürün Kodu: ${product.code}
+
+📝 Ürün hakkında detaylı bilgi alabilir miyim?
+📏 Mevcut beden ve renk seçeneklerini öğrenebilir miyim?
+
+Teşekkürler! ✨`;
+
+            const whatsappUrl = `https://wa.me/905467746472?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+            
+            trackWhatsAppClick('single_order', product.name);
+            closeProductModal();
+        }
+
+        function orderFromCart() {
+            if (cart.length === 0) return;
+
+            let message = `Merhaba! Miracle Mira Lingerie'den sepet siparişi vermek istiyorum:
+
+🛍️ *SEPET İÇERİĞİ:*\n`;
+
+            cart.forEach((item, index) => {
+                message += `${index + 1}. ${item.name}
+   💰 ${item.price} (${item.quantity} adet)
+   🏷️ Kod: ${item.code}\n\n`;
+            });
+
+            message += `📝 Bu ürünler hakkında detaylı bilgi alabilir miyim?
+📏 Beden ve renk seçeneklerini öğrenebilir miyim?
+🚚 Kargo bilgilerini paylaşabilir misiniz?
+
+Teşekkürler! ✨`;
+
+            const whatsappUrl = `https://wa.me/905467746472?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+            
+            trackWhatsAppClick('cart_order');
+            closeCart();
+        }
+
+        function setupEventListeners() {
+            // Cart modal
+            document.getElementById('cartBtn').addEventListener('click', () => {
+                document.getElementById('cartModal').classList.remove('hidden');
+            });
+
+            document.getElementById('closeCart').addEventListener('click', closeCart);
+            document.getElementById('whatsappOrder').addEventListener('click', orderFromCart);
+
+            // Product modal
+            document.getElementById('closeModal').addEventListener('click', closeProductModal);
+
+            // Close modals on outside click
+            document.getElementById('cartModal').addEventListener('click', (e) => {
+                if (e.target.id === 'cartModal') closeCart();
+            });
+
+            document.getElementById('productModal').addEventListener('click', (e) => {
+                if (e.target.id === 'productModal') closeProductModal();
+            });
+        }
+
+        function closeCart() {
+            document.getElementById('cartModal').classList.add('hidden');
+        }
+
+        function scrollToCollection() {
+            document.getElementById('collection').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Analytics Functions
+        function trackWhatsAppClick(type, productName = '') {
+            gtag('event', 'whatsapp_click', {
+                'event_category': 'engagement',
+                'event_label': type,
+                'custom_parameter_1': productName
+            });
+        }
+
+        function trackAddToCart(productName, productCode, price) {
+            gtag('event', 'add_to_cart', {
+                'currency': 'TRY',
+                'value': parseFloat(price.replace('₺', '')),
+                'items': [{
+                    'item_id': productCode,
+                    'item_name': productName,
+                    'category': 'lingerie',
+                    'price': parseFloat(price.replace('₺', ''))
+                }]
+            });
+        }
+
+        function trackPurchase(productName, productCode, price) {
+            gtag('event', 'purchase', {
+                'transaction_id': Date.now().toString(),
+                'currency': 'TRY',
+                'value': parseFloat(price.replace('₺', '')),
+                'items': [{
+                    'item_id': productCode,
+                    'item_name': productName,
+                    'category': 'lingerie',
+                    'price': parseFloat(price.replace('₺', ''))
+                }]
+            });
+        }
+
+        // Generate sitemap.xml content
+        function generateSitemap() {
+            const baseUrl = 'https://miraclemiralingerie.com';
+            const urls = [
+                { loc: baseUrl, priority: '1.0' },
+                { loc: `${baseUrl}/#collection`, priority: '0.8' },
+                { loc: `${baseUrl}/#about`, priority: '0.6' },
+                { loc: `${baseUrl}/#contact`, priority: '0.7' }
+            ];
+
+            let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
+
+            urls.forEach(url => {
+                sitemap += `
+  <url>
+    <loc>${url.loc}</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <priority>${url.priority}</priority>
+  </url>`;
+            });
+
+            sitemap += `
+</urlset>`;
+
+            return sitemap;
+        }
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98b512ce068cd2db',t:'MTc1OTkyMDU4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
